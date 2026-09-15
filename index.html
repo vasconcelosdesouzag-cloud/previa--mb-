@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MB Barbearia | Bairro Granada, Uberlândia - MG</title>
+  <meta name="description" content="MB Barbearia no Bairro Granada em Uberlândia - MG. Cortes modernos, degradê fade, barboterapia com toalha quente e atendimento premium. Agende pelo WhatsApp: (34) 99996-6305.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navegação Fixa -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-badge">MB</span>
+        <span class="logo-text">BARBEARIA</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link">Início</a>
+        <a href="#servicos" class="nav-link">Cortes & Preços</a>
+        <a href="#galeria" class="nav-link">Trabalhos</a>
+        <a href="#diferenciais" class="nav-link">Diferenciais</a>
+        <a href="#depoimentos" class="nav-link">Depoimentos</a>
+        <a href="#faq" class="nav-link">Dúvidas</a>
+        <a href="#contato" class="nav-link">Localização</a>
+        <button class="btn btn-primary nav-cta btn-open-modal">
+          Agendar Horário
+        </button>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+        Bairro Granada • Uberlândia - MG
+      </div>
+      <h1 class="hero-title">
+        Estilo, Tradição & <span class="highlight">Precisão</span>
+      </h1>
+      <p class="hero-subtitle">
+        A experiência definitiva em cuidados masculinos na zona sul de Uberlândia. Degradê impecável, tesoura de alta precisão e a clássica barboterapia com toalha quente.
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary btn-open-modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Agendar Horário Online
+        </button>
+        <a href="https://wa.me/5534999966305?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20MB%20Barbearia%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          (34) 99996-6305
+        </a>
+      </div>
+
+      <!-- Destaques Rápidos -->
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">Granada</span>
+          <span class="stat-label">Bairro Tradicional</span>
+        </div>
+        <div class="stat-separator"></div>
+        <div class="stat-item">
+          <span class="stat-number">Climatizado</span>
+          <span class="stat-label">Conforto & Café Grátis</span>
+        </div>
+        <div class="stat-separator"></div>
+        <div class="stat-item">
+          <span class="stat-number">WhatsApp</span>
+          <span class="stat-label">Agendamento Fácil</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Serviços e Preços -->
+  <section class="section services-section" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">TABELA DE PREÇOS</span>
+        <h2 class="section-title">Nossos Serviços & Cortes</h2>
+        <p class="section-subtitle">Escolha o serviço desejado e monte seu agendamento no WhatsApp em poucos segundos.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Card 1: Degradê (Mais Pedido) -->
+        <div class="service-card featured">
+          <div class="featured-tag">Mais Pedido 🔥</div>
+          <div class="service-head">
+            <h3 class="service-name">Corte Degradê / Fade</h3>
+            <div class="service-price">
+              <span class="currency">R$</span>
+              <span class="amount">40</span>
+              <span class="cents">,00</span>
+            </div>
+          </div>
+          <p class="service-desc">
+            Transição suave (Low, Mid ou High Fade) na máquina e navalha, com contorno alinhado e finalização com pomada modeladora.
+          </p>
+          <ul class="service-features">
+            <li>Acabamento navalhado de alta definição</li>
+            <li>Lavagem e secagem inclusas</li>
+            <li>Finalização com produto premium</li>
+          </ul>
+          <button class="btn btn-primary btn-block btn-booking" data-service="Corte Degradê / Fade">
+            Agendar Este Corte
+          </button>
+        </div>
+
+        <!-- Card 2: Combo Barba + Cabelo -->
+        <div class="service-card featured-gold">
+          <div class="featured-tag best-value">Melhor Custo-Benefício ⭐</div>
+          <div class="service-head">
+            <h3 class="service-name">Combo Cabelo + Barba</h3>
+            <div class="service-price">
+              <span class="currency">R$</span>
+              <span class="amount">65</span>
+              <span class="cents">,00</span>
+            </div>
+          </div>
+          <p class="service-desc">
+            O pacote completo para transformar seu visual. Seu corte de preferência com o ritual completo de barboterapia.
+          </p>
+          <ul class="service-features">
+            <li>Corte completo (Social ou Degradê)</li>
+            <li>Barba completa com toalha quente</li>
+            <li>Hidratação e óleo aromatizado</li>
+          </ul>
+          <button class="btn btn-gold btn-block btn-booking" data-service="Combo Cabelo + Barba">
+            Agendar Este Combo
+          </button>
+        </div>
+
+        <!-- Card 3: Corte Social / Tradicional -->
+        <div class="service-card">
+          <div class="service-head">
+            <h3 class="service-name">Corte Social Tradicional</h3>
+            <div class="service-price">
+              <span class="currency">R$</span>
+              <span class="amount">35</span>
+              <span class="cents">,00</span>
+            </div>
+          </div>
+          <p class="service-desc">
+            Estilo clássico executado na tesoura e máquina, respeitando o formato do seu rosto e alinhamento natural do cabelo.
+          </p>
+          <ul class="service-features">
+            <li>Tesoura de precisão</li>
+            <li>Pezinho alinhado na navalha</li>
+            <li>Visual elegante e alinhado</li>
+          </ul>
+          <button class="btn btn-outline btn-block btn-booking" data-service="Corte Social Tradicional">
+            Agendar Este Corte
+          </button>
+        </div>
+
+        <!-- Card 4: Barboterapia Completa -->
+        <div class="service-card">
+          <div class="service-head">
+            <h3 class="service-name">Barboterapia Completa</h3>
+            <div class="service-price">
+              <span class="currency">R$</span>
+              <span class="amount">30</span>
+              <span class="cents">,00</span>
+            </div>
+          </div>
+          <p class="service-desc">
+            Ritual clássico com aplicação de toalha quente, espuma massageadora, navalha afiada e pós-barba refrescante.
+          </p>
+          <ul class="service-features">
+            <li>Toalha quente para dilatação dos poros</li>
+            <li>Alinhamento milimétrico na lâmina</li>
+            <li>Prevenção de foliculite e irritações</li>
+          </ul>
+          <button class="btn btn-outline btn-block btn-booking" data-service="Barboterapia Completa">
+            Agendar Este Serviço
+          </button>
+        </div>
+
+        <!-- Card 5: Acabamento / Pezinho -->
+        <div class="service-card">
+          <div class="service-head">
+            <h3 class="service-name">Acabamento & Pezinho</h3>
+            <div class="service-price">
+              <span class="currency">R$</span>
+              <span class="amount">15</span>
+              <span class="cents">,00</span>
+            </div>
+          </div>
+          <p class="service-desc">
+            Manutenção rápida das laterais, nuca e costeletas para manter o corte sempre alinhado sem precisar cortar tudo.
+          </p>
+          <ul class="service-features">
+            <li>Navalha com lâmina descartável</li>
+            <li>Acabamento impecável na nuca</li>
+            <li>Rápido e prático</li>
+          </ul>
+          <button class="btn btn-outline btn-block btn-booking" data-service="Acabamento & Pezinho">
+            Agendar Este Serviço
+          </button>
+        </div>
+
+        <!-- Card 6: Sobrancelha Masculina -->
+        <div class="service-card">
+          <div class="service-head">
+            <h3 class="service-name">Design de Sobrancelha</h3>
+            <div class="service-price">
+              <span class="currency">R$</span>
+              <span class="amount">15</span>
+              <span class="cents">,00</span>
+            </div>
+          </div>
+          <p class="service-desc">
+            Limpeza do excesso e alinhamento dos fios na navalha ou pinça, preservando a naturalidade do olhar masculino.
+          </p>
+          <ul class="service-features">
+            <li>Design discreto e natural</li>
+            <li>Alívio do excesso entre sobrancelhas</li>
+            <li>Finalização com loção calmante</li>
+          </ul>
+          <button class="btn btn-outline btn-block btn-booking" data-service="Design de Sobrancelha">
+            Agendar Este Serviço
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria de Cortes & Ambiente -->
+  <section class="section gallery-section" id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">PORTFÓLIO & ESPAÇO</span>
+        <h2 class="section-title">Nossos Trabalhos</h2>
+        <p class="section-subtitle">Confira alguns dos cortes e o ambiente exclusivo preparado para você na MB Barbearia.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=700&auto=format&fit=crop&q=80" alt="Corte Degradê Fade Navalhado" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Degradê / Fade</span>
+            <p>Transição limpa e disfarce na navalha</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=700&auto=format&fit=crop&q=80" alt="Barboterapia MB Barbearia" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Barboterapia</span>
+            <p>Toalha quente e desenho de barba</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=700&auto=format&fit=crop&q=80" alt="Corte Freestyle e Risco" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Freestyle & Risco</span>
+            <p>Alinhamento de precisão e acabamento</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=700&auto=format&fit=crop&q=80" alt="Corte Social na Tesoura" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Corte Social Clássico</span>
+            <p>Técnica apurada na tesoura e pente</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?w=700&auto=format&fit=crop&q=80" alt="Corte Texturizado e Barba" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Combo Estilizado</span>
+            <p>Cabelo texturizado com barba alinhada</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=700&auto=format&fit=crop&q=80" alt="Ambiente da Barbearia no Granada" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Estrutura MB</span>
+            <p>Ambiente climatizado no Bairro Granada</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Diferenciais -->
+  <section class="section differentials-section" id="diferenciais">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">POR QUE ESCOLHER A MB</span>
+        <h2 class="section-title">Muito Mais Que Um Corte</h2>
+        <p class="section-subtitle">Na MB Barbearia, unimos técnica afiada com a hospitalidade que Uberlândia merece.</p>
+      </div>
+
+      <div class="differentials-grid">
+        <div class="diff-card">
+          <div class="diff-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>Preço Justo & Honesto</h3>
+          <p>Tabela clara, sem surpresas no caixa. O melhor custo-benefício da região do Granada.</p>
+        </div>
+
+        <div class="diff-card">
+          <div class="diff-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Pontualidade no Horário</h3>
+          <p>Respeito pelo seu tempo. Você marca pelo WhatsApp e é atendido sem atrasos cansativos.</p>
+        </div>
+
+        <div class="diff-card">
+          <div class="diff-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h3>Ambiente Climatizado & Café</h3>
+          <p>Espaço confortável, música ambiente de qualidade, ar-condicionado e café sempre fresco.</p>
+        </div>
+
+        <div class="diff-card">
+          <div class="diff-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Higiene e Lâminas Descartáveis</h3>
+          <p>Esterilização constante dos instrumentos e lâminas 100% descartáveis e individuais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos de Clientes -->
+  <section class="section testimonials-section" id="depoimentos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">OPINIÃO DE QUEM FREQUENTA</span>
+        <h2 class="section-title">O Que Dizem Nossos Clientes</h2>
+        <p class="section-subtitle">A confiança de quem já cuida do visual conosco em Uberlândia.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-quote">"Melhor degradê de Uberlândia! O atendimento é nota dez, o espaço no Granada é super fácil de chegar e pontualidade britânica no horário."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">LM</div>
+            <div>
+              <strong>Lucas Martins</strong>
+              <span>Cliente Frequente • Bairro Granada</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card featured-testimonial">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-quote">"A barboterapia com a toalha quente é outro nível de relaxamento. Faço o combo cabelo e barba a cada 15 dias e não troco por nada."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RF</div>
+            <div>
+              <strong>Rodrigo Ferreira</strong>
+              <span>Empresário • Uberlândia - MG</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-quote">"Barbearia de responsa! Preço justo, ambiente limpo e o agendamento pelo WhatsApp facilita demais a vida. Recomendo pra todo mundo."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">GS</div>
+            <div>
+              <strong>Gabriel Silva</strong>
+              <span>Morador da Zona Sul</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ - Perguntas Frequentes -->
+  <section class="section faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">DÚVIDAS COMUNS</span>
+        <h2 class="section-title">Perguntas Frequentes</h2>
+        <p class="section-subtitle">Tire suas dúvidas antes de fazer o seu agendamento na MB Barbearia.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Preciso agendar com antecedência ou posso chegar sem horário?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Atendemos prioritariamente com horário agendado pelo WhatsApp para garantir que você não perca tempo esperando. Se passar pelo bairro Granada e tivermos vaga no momento, atendemos também por ordem de chegada!</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Quais são as formas de pagamento aceitas?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Aceitamos Pix, cartões de crédito e débito de todas as bandeiras, além de dinheiro em espécie.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Onde exatamente a MB Barbearia fica no bairro Granada?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Ficamos localizados no Bairro Granada, em uma rua de fácil acesso e estacionamento tranquilo em Uberlândia. Ao clicar em nosso botão de localização ou agendar no WhatsApp, enviamos o ponto exato no Google Maps.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Como funciona o ritual de barboterapia?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Aplicamos toalha quente com essências para abrir os poros e amaciar os pelos, lâmina descartável de precisão para desenhar a barba e finalizamos com bálsamo pós-barba gelado para acalmar a pele e evitar irritações.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Contato, Localização e Horários -->
+  <section class="section contact-section" id="contato">
+    <div class="container">
+      <div class="contact-box">
+        <div class="contact-info">
+          <span class="section-badge">LOCALIZAÇÃO & HORÁRIOS</span>
+          <h2 class="contact-title">Venha Conhecer a MB Barbearia</h2>
+          <p class="contact-desc">
+            Estamos localizados no coração do Bairro Granada em Uberlândia. Garanta o melhor horário pelo WhatsApp ou venha nos visitar.
+          </p>
+
+          <div class="info-list">
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <strong>WhatsApp & Telefone</strong>
+                <p><a href="https://wa.me/5534999966305?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20MB%20Barbearia." target="_blank" rel="noopener noreferrer" class="contact-link">(34) 99996-6305</a></p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <strong>Endereço</strong>
+                <p>Bairro Granada • Uberlândia - MG (Fácil estacionamento)</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <strong>Horários de Funcionamento</strong>
+                <p>Segunda a Sexta: 09:00 às 20:00<br>Sábado: 08:30 às 19:00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-cta">
+            <button class="btn btn-primary btn-lg btn-open-modal">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+              Agendar no WhatsApp
+            </button>
+          </div>
+        </div>
+
+        <div class="map-card">
+          <div class="map-inner">
+            <div class="map-placeholder">
+              <div class="map-pin">
+                <svg width="44" height="44" viewBox="0 0 24 24" fill="#D4AF37" stroke="#121214" stroke-width="1.5"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3" fill="#121214"/></svg>
+              </div>
+              <h4>MB Barbearia</h4>
+              <p>Bairro Granada • Uberlândia - MG</p>
+              <span class="map-badge">Atendimento com ou sem hora marcada</span>
+              <a href="https://www.google.com/maps/search/?api=1&query=MB+Barbearia+Granada+Uberlandia+MG" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+                Como Chegar (Google Maps)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-badge">MB</span>
+        <span class="logo-text">BARBEARIA</span>
+        <p class="footer-copy">© 2026 MB Barbearia • Bairro Granada, Uberlândia - MG. Todos os direitos reservados.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Início</a>
+        <a href="#servicos">Cortes & Preços</a>
+        <a href="#galeria">Trabalhos</a>
+        <a href="#contato">Localização</a>
+        <a href="https://wa.me/5534999966305" target="_blank" rel="noopener noreferrer" class="contact-link">(34) 99996-6305</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante do WhatsApp -->
+  <a href="https://wa.me/5534999966305?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20MB%20Barbearia%20(Bairro%20Granada)." target="_blank" rel="noopener noreferrer" class="whatsapp-float" id="whatsappFloat" aria-label="Falar no WhatsApp">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+    <span class="tooltip">Agende no WhatsApp</span>
+  </a>
+
+  <!-- Modal Interativo de Agendamento -->
+  <div class="modal-backdrop" id="bookingModal" aria-hidden="true">
+    <div class="modal-container" role="dialog" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">&times;</button>
+      
+      <div class="modal-header">
+        <span class="modal-badge">AGENDAMENTO RÁPIDO</span>
+        <h3 id="modalTitle" class="modal-title">Agende seu Horário</h3>
+        <p class="modal-subtitle">MB Barbearia • Bairro Granada (Uberlândia - MG)</p>
+      </div>
+
+      <form class="modal-form" id="bookingForm">
+        <div class="form-group">
+          <label for="clientName">Seu Nome Completo:</label>
+          <input type="text" id="clientName" placeholder="Ex: Gabriel Silva" required>
+        </div>
+
+        <div class="form-group">
+          <label for="serviceSelect">Serviço Desejado:</label>
+          <select id="serviceSelect" required>
+            <option value="Corte Degradê / Fade (R$ 40)">Corte Degradê / Fade — R$ 40,00</option>
+            <option value="Combo Cabelo + Barba (R$ 65)">Combo Cabelo + Barba — R$ 65,00</option>
+            <option value="Corte Social Tradicional (R$ 35)">Corte Social Tradicional — R$ 35,00</option>
+            <option value="Barboterapia Completa (R$ 30)">Barboterapia Completa — R$ 30,00</option>
+            <option value="Acabamento & Pezinho (R$ 15)">Acabamento & Pezinho — R$ 15,00</option>
+            <option value="Design de Sobrancelha (R$ 15)">Design de Sobrancelha — R$ 15,00</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookingDay">Dia Preferido:</label>
+            <select id="bookingDay" required>
+              <option value="Hoje">Hoje</option>
+              <option value="Amanhã">Amanhã</option>
+              <option value="Nesta Semana">Nesta Semana</option>
+              <option value="Sábado">Sábado</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="bookingPeriod">Período / Turno:</label>
+            <select id="bookingPeriod" required>
+              <option value="Manhã (09h às 12h)">Manhã (09h às 12h)</option>
+              <option value="Tarde (13h às 17h)">Tarde (13h às 17h)</option>
+              <option value="Noite (17h às 20h)">Noite (17h às 20h)</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-whatsapp-modal btn-block">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          Confirmar e Abrir no WhatsApp
+        </button>
+        <span class="form-help">Você será direcionado diretamente para o WhatsApp oficial <strong>(34) 99996-6305</strong> da MB Barbearia.</span>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
